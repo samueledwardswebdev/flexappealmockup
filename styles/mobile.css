@@ -7,6 +7,10 @@
   font-size: 4rem;
 }
 
+#showcase p {
+  text-align: center;
+}
+
 .usp-container {
   grid-template-columns: repeat(1,1fr);
 }
@@ -45,13 +49,14 @@
 .home-about-container .btn {
   display: block;
   margin: auto;
-  width: 40%;
+  width: 50%;
   text-align: center;
 }
 
 #testimonial-banner {
   height: 100%;
   padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 
 .testimonial-banner-container {
@@ -91,7 +96,7 @@
 }
 
 #facilities > .btn {
-  width: 30%;
+  width: 50%;
 }
 
 #ind {
