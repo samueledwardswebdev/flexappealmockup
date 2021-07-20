@@ -1,0 +1,112 @@
+#showcase {
+  padding: 0 1rem;
+}
+
+#showcase h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.usp-container {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.usp-img {
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.usp-item {
+  margin-top: 1.5rem;
+}
+
+.usp-content {
+  margin-top: 1.5rem;
+}
+
+.home-about-container {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.home-about-images {
+  height: 300px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.home-about-images div:last-child {
+  transform: none;
+}
+
+.home-about-info h1,
+.home-about-info h3,
+.home-about-info p {
+  text-align: center;
+}
+
+.home-about-container .btn {
+  display: block;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+}
+
+#testimonial-banner {
+  height: 100%;
+  padding-bottom: 3rem;
+}
+
+.testimonial-banner-container {
+  width: 100%;
+  text-align: center;
+}
+
+.testimonial-banner-container p {
+  font-size: 1.4rem;
+}
+
+.testimonial-banner-container p i {
+  font-size: 1.5rem;
+}
+
+.facilities-container {
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+}
+
+.fac-item {
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+
+.fac-item-left {
+  width: 100%;
+}
+
+.fac-item-right-1, 
+.fac-item-right-2,
+.fac-item-right-3,
+.fac-item-right-4 {
+  height: 200px;
+  width: 100%;
+}
+
+#facilities > .btn {
+  width: 30%;
+}
+
+#ind {
+  height: 100%;
+  padding: 3rem 0;
+  border-radius: 0vh;
+  text-align: center;
+}
+
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-container * {
+  margin-bottom: 1rem;
+}
