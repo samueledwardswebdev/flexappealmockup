@@ -7,6 +7,7 @@
   --primary-red: #DC3333;
   --off-white: #F5F5F5;
   --dark-grey: #121212;
+  --letter-spacing: 2px;
 
 }
 /* General Styles */
@@ -412,11 +413,11 @@ img {
 }
 
 .fac-item-right-1 {
-  background: url('../images/cardio.jpg') no-repeat center center/cover;
+  background: url('../images/crosstrainer.jpeg') no-repeat center center/cover;
 }
 
 .fac-item-right-2 {
-  background: url('../images/freeweights.jpg') no-repeat center center/cover;
+  background: url('../images/freeweightroom.jpeg') no-repeat center center/cover;
 }
 
 .fac-item-right-3 {
@@ -424,7 +425,7 @@ img {
 }
 
 .fac-item-right-4 {
-  background: url('../images/stretch.jpg') no-repeat center center/cover;
+  background: url('../images/stretching.jpeg') no-repeat center center/cover;
 }
 
 /* Industry Leading Section */
@@ -548,9 +549,390 @@ img {
 }
 
 .footer-container .legal a {
-  color: var(--pff-white);
+  color: var(--off-white);
   font-size: 0.9rem;
   margin-bottom: 0.3rem;
 }
 
+/**************** About Page ***************/
 
+#about-header {
+  height: 40vh;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  position: relative;
+}
+
+#about-header::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/gym-1.jpg') no-repeat center center/cover;
+  z-index: -1;
+}
+
+.about-header-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--off-white);
+}
+
+.about-header-container h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+/* About Content */
+
+#about-content {
+  padding: 3rem 0;
+}
+
+.about-content-container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+}
+
+.about-content-info,
+.about-content-info-2 {
+  padding: 1rem;
+}
+
+.about-content-info h3,
+.about-content-info-2 h3 {
+  color: var(--primary-red);
+  font-size: 1.8rem;
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 1rem;
+}
+
+.about-content-info p,
+.about-content-info-2 p {
+  text-align: justify;
+}
+
+/* About Cards */
+
+#about-cards {
+  padding: 3rem 0;
+  background: #e2e1e1;
+}
+
+.about-cards-container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 0.5rem;
+}
+
+/* About Images */
+
+.about-images {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 80%;
+  margin: 2rem auto;
+  gap: 0.5rem;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+
+}
+/* Card */
+.about-card {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.about-card i {
+  font-size: 2.5rem;
+  color: var(--primary-red);
+  margin-bottom: 0.5rem;
+}
+
+.about-card-h4 {
+  letter-spacing: var(--letter-spacing);
+  font-size: 1.2rem;
+}
+
+.about-card p {
+  margin-top: 0.5rem;
+}
+
+/* About Banner */
+
+#about-banner {
+  height: 60vh;
+  background: rgba(0,0,0,0.8);
+  position: relative;
+}
+
+#about-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../images/gym-1.jpg') no-repeat center center/cover;
+  z-index: -1;
+}
+
+.about-banner-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  color: var(--off-white);
+  height: 100%;
+}
+
+.about-banner-container h3 {
+  font-size: 1.6rem;
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 1rem;
+}
+
+.about-banner-container p {
+  width: 60%;
+  line-height: var(--line-height);
+  margin-bottom: 1rem;
+}
+
+.about-banner-container .btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--off-white);
+  text-align: center;
+  width: 15%;
+  color: var(--off-white);
+}
+
+/*********** Team Page ************/
+
+#team-header {
+  height: 40vh;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  position: relative;
+}
+
+#team-header::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/gym-1.jpg') no-repeat center center/cover;
+  z-index: -1;
+}
+
+.team-header-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--off-white);
+}
+
+.team-header-container h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.team-people-container {
+  width: 90%;
+  margin: auto;
+}
+
+.team-people-container > h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.team-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+#team-people {
+  padding: 3rem 0;
+}
+
+#team-people h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.team-person-img {
+  background: var(--dark-grey);
+  width: 100%;
+  height: 350px;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.pt-cards {
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+  text-align: center;
+  margin: auto;
+}
+
+
+.josh {
+  background: url('../images/josh.jpg') no-repeat center center/cover;
+}
+.anne-marie {
+  background: url('../images/anne.jpg') no-repeat center center/cover;
+}
+.ben {
+  background: url('../images/ben.jpg') no-repeat center top/cover;
+}
+
+
+/* Contact Page */
+
+#contact-title {
+  height: 50vh;
+  background: rgba(0,0,0,0.8);
+  position: relative;
+  border-radius: 0 0 15vh 0;
+  overflow: hidden;
+}
+
+#contact-title::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../images/flex-dumbbells.jpg') no-repeat center center/cover;
+  z-index: -1;
+}
+
+.contact-title-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-title-container h2 {
+  color: var(--off-white);
+  font-size: 2rem;
+  letter-spacing: var(--letter-spacing);
+}
+
+/* Contact Main */
+
+#contact-main {
+  padding: 3rem 0;
+}
+
+.contact-main-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.contact-main-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-main-info h2{
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  letter-spacing: var(--letter-spacing);
+}
+
+.contact-main-info-content i {
+  font-size: 1.6rem;
+  color: var(--primary-red);
+  margin-right: 1rem;
+}
+
+.contact-main-social {
+  margin-top: 1rem;
+}
+
+.contact-main-social > i {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--primary-red);
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.form-wrapper {
+  padding: 1rem;
+}
+
+.form-item {
+  margin: 1rem 0;
+}
+
+.form-item label {
+  font-size: 1.2rem;
+  letter-spacing: var(--letter-spacing);
+}
+
+.form-item input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--primary-red);
+  padding: 0.6rem 0.1rem;
+  background: transparent;
+}
+
+.form-item .message {
+  padding: 2rem 0.1rem;
+}
+
+.form-item input:focus {
+  outline: none;
+}
+
+.form-wrapper .btn {
+  background: none;
+  padding: 0.8rem 1.2rem;
+  border: 2px solid var(--primary-red);
+  font-weight: bold;
+  color: var(--primary-red);
+  cursor: pointer;
+}

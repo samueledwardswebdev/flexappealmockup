@@ -10,6 +10,7 @@
 
 #showcase p {
   text-align: center;
+  width: 80%;
 }
 
 .usp-container {
@@ -115,4 +116,105 @@
 
 .footer-container * {
   margin-bottom: 1rem;
+}
+
+#about-header {
+  height: 50vh;
+}
+
+.about-content-container {
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+  text-align: center;
+}
+
+.about-cards-container {
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+}
+
+.about-images {
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  padding: 1rem;
+  background: var(--off-white);
+}
+
+#about-cards {
+  padding: 1rem 0;
+}
+
+.about-banner-container h3 {
+  text-align: center;
+}
+
+.about-banner-container p {
+  width: 100%;
+  text-align: center;
+}
+
+.about-banner-container .btn { 
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* Team Page */
+
+#team-header {
+  height: 50vh;
+}
+
+.team-people-container {
+  width: 100%;
+}
+
+#team-people > h3 {
+  font-size: 1rem; 
+  width: 100%;
+  padding: 0 0.5rem;
+}
+
+.team-cards {
+  grid-template-columns: repeat(2,1fr);
+  padding: 1rem;
+}
+
+
+.pt-cards {
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Contact Page */
+
+.contact-main-container {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.contact-main-info {
+  width: 100%;
+  padding: 1rem;
+}
+
+.contact-main-info h2 {
+  font-size: 1rem;
+  margin: 1rem 3rem;
+}
+
+.contact-main-social {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.contact-main-social * {
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  width: 100%;
 }
