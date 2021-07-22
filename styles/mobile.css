@@ -197,13 +197,14 @@
 
 
 .contact-main-info {
-  width: 100%;
+  width: 90%;
   padding: 1rem;
+  margin: auto;
 }
 
 .contact-main-info h2 {
   font-size: 1rem;
-  margin: 1rem 3rem;
+  margin-bottom: 2rem;
 }
 
 .contact-main-social {
