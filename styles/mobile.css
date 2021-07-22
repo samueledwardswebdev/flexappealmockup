@@ -207,10 +207,15 @@
   margin-bottom: 2rem;
 }
 
+.contact-main-info-content i {
+  font-size: 1.1rem;
+}
+
 .contact-main-social {
   margin: 1.5rem auto;
   text-align: center;
 }
+
 
 .contact-main-social * {
   margin-bottom: 1rem;
