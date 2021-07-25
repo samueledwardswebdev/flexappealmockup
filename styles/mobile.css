@@ -1,3 +1,7 @@
+.logo {
+  width: 100px;
+}
+
 #showcase {
   padding: 0 1rem;
   text-align: center;
@@ -5,12 +9,14 @@
 
 #showcase h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
+  margin-bottom: 5px;
 }
 
 #showcase p {
   text-align: center;
   width: 80%;
+  font-weight: 100;
 }
 
 .usp-container {
@@ -106,6 +112,10 @@
   padding: 3rem 0;
   border-radius: 0vh;
   text-align: center;
+}
+
+.ind-container h2 {
+  font-weight: 200;
 }
 
 .footer-container {

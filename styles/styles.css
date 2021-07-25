@@ -4,7 +4,7 @@
 /* Root Style */
 
 :root {
-  --primary-red: #DC3333;
+  --primary-red: #bb3030;
   --off-white: #F5F5F5;
   --dark-grey: #121212;
   --letter-spacing: 2px;
@@ -82,6 +82,14 @@ img {
   z-index: 100;
 }
 
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: 5%;
+  width: 150px;
+  z-index: 100;
+}
+
 .mainMenu {
   position: fixed;
   width: 100%;
@@ -127,6 +135,11 @@ img {
 
 #showcase h1 span {
   color: var(--primary-red);
+  font-weight: 300;
+}
+
+#showcase h1 span:last-child {
+  color: var(--off-white);
 }
 
 #showcase p {
@@ -240,12 +253,12 @@ img {
 
 .home-about-images div {
   height: 100%;
-  background: url('../images/gym-1.jpg') no-repeat center center/cover;
+  background: url('../images/dumbbellarea.jpeg') no-repeat center center/cover;
 }
 
 .home-about-images div:last-child {
   transform: translateY(1rem);
-  background: url('../images/gym-2.jpg') no-repeat center center/cover;
+  background: url('../images/lat-pull-down.jpeg') no-repeat center center/cover;
 }
 
 .home-about-info {
@@ -810,8 +823,8 @@ img {
 .anne-marie {
   background: url('../images/anne.jpg') no-repeat center center/cover;
 }
-.ben {
-  background: url('../images/ben.jpg') no-repeat center top/cover;
+.bradley {
+  background: url('../images/bradley.jpg') no-repeat center top/cover;
 }
 
 
