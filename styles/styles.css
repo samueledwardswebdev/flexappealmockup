@@ -40,11 +40,16 @@ img {
 .btn {
   padding: 0.4rem 0.8rem;
   display: inline-block;
+  transition: all ease 0.8s;
 }
 
 .btn-primary {
   border: solid 4px var(--primary-red);
   color: var(--off-white);
+}
+
+.btn:hover {
+  opacity: 0.7;
 }
 
 
@@ -144,7 +149,7 @@ img {
 
 #showcase p {
   color: var(--off-white);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 #showcase .social {
@@ -399,6 +404,13 @@ img {
   overflow: hidden;
   border-radius: 0.5rem;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all ease 1s;
+}
+
+.fac-item:hover {
+  transform: scale(1.025);
+
 }
 
 .fac-item-left {
@@ -475,6 +487,7 @@ img {
 .ind-container h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  font-weight: 300;
 }
 
 /* Sign Up Section */
@@ -768,7 +781,7 @@ img {
 }
 
 .team-people-container {
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
@@ -781,9 +794,8 @@ img {
 .team-cards {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(3,1fr);
   gap: 1rem;
-  text-align: center;
 }
 
 #team-people {
@@ -796,26 +808,39 @@ img {
   width: 60%;
   margin: auto;
   margin-bottom: 3rem;
+  font-weight: 300;
+}
+
+.team-person {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  transition: all ease 0.8s;
+}
+
+.team-person:hover {
+  transform: scale(1.05);
+}
+
+.team-person a {
+  color: var(--dark-grey);
 }
 
 .team-person-img {
   background: var(--dark-grey);
   width: 100%;
-  height: 350px;
+  height: 300px;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
 
-.pt-cards {
-  display: grid;
-  width: 50%;
-  grid-template-columns: repeat(2,1fr);
-  gap: 1rem;
-  text-align: center;
-  margin: auto;
+.team-person h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
-
 
 .josh {
   background: url('../images/josh.jpg') no-repeat center center/cover;
@@ -825,6 +850,17 @@ img {
 }
 .bradley {
   background: url('../images/bradley.jpg') no-repeat center top/cover;
+}
+.ang {
+  background: url('https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/82213423_2667792399972915_5215712661110521856_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=uGrd0mjfaTEAX-Ynn-s&_nc_ht=scontent-lhr8-1.xx&oh=5dc041ef9471fb1fdccf6172b082f310&oe=61244B3E') no-repeat center right/cover;
+}
+
+.den {
+  background: url('https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/173211440_3919944204757722_6701634930659740447_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=UE68vNT857UAX-sgcEz&_nc_ht=scontent-lhr8-1.xx&oh=61fef04f25584e2393e7cb0db3819833&oe=61250B7B') no-repeat center center/cover;
+}
+
+.charlie {
+  background: url('https://scontent-lhr8-2.xx.fbcdn.net/v/t31.18172-8/19620411_1981519502077914_9148403619689207690_o.jpg?_nc_cat=104&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=6qvFFHHFZRgAX8s718t&_nc_ht=scontent-lhr8-2.xx&oh=24a04e132cd5068bed04b9e2b32b12f0&oe=61260017') no-repeat center center/cover;
 }
 
 
@@ -948,4 +984,40 @@ img {
   font-weight: bold;
   color: var(--primary-red);
   cursor: pointer;
+}
+
+
+/********** Equipment Page ***********/
+
+#equipment-header {
+  background: rgba(0,0,0,0.8);
+  position: relative;
+  height: 40vh;
+}
+
+#equipment-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url('../images/dumbbellarea.jpeg')no-repeat center center/cover;
+}
+
+.equipment-header-container {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.equipment-header-container h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: var(--off-white);
 }

@@ -181,7 +181,15 @@
 #team-people > h3 {
   font-size: 1rem; 
   width: 100%;
-  padding: 0 0.5rem;
+  padding: 0 0.8rem;
+}
+
+.team-person {
+  padding: 0.5rem;
+}
+
+.team-person-img {
+  height: 175px;
 }
 
 .team-cards {
@@ -233,4 +241,14 @@
 
 .contact-form {
   width: 100%;
+}
+
+/* Sign-up Section */
+
+.signup-container {
+  padding: 0 0.5rem;
+}
+
+.signup-container h2 {
+  font-size: 1.5rem;
 }
